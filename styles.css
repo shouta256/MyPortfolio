@@ -122,9 +122,15 @@ header {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width:400) {
   .catchPhrase {
-    font-size: 2em; /* 画面幅が400px以下の場合のフォントサイズ */
+    font-size: 1.3em; /* 画面幅が400px以下の場合のフォントサイズ */
+  }
+}
+
+@media (min-width: 401) and (max-width: 570px) {
+  .catchPhrase {
+    font-size: 1.8em; /* 画面幅が400px以下の場合のフォントサイズ */
   }
 }
 
