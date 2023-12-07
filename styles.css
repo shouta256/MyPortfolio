@@ -122,19 +122,19 @@ header {
   }
 }
 
-@media (max-width:400) {
+@media (max-width:480) {
   .catchPhrase {
     font-size: 1.3em; /* 画面幅が400px以下の場合のフォントサイズ */
   }
 }
 
-@media (min-width: 401) and (max-width: 570px) {
+@media (min-width: 481) and (max-width: 650px) {
   .catchPhrase {
     font-size: 1.8em; /* 画面幅が400px以下の場合のフォントサイズ */
   }
 }
 
-@media (min-width: 571px) and (max-width: 800px) {
+@media (min-width: 651px) and (max-width: 800px) {
   .catchPhrase {
     font-size: 2.5em; /* 画面幅が600px以下の場合のフォントサイズ */
   }
