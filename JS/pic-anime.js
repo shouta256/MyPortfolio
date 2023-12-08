@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
       setTimeout(() => {
         element.style.display = "block"; // 要素を表示
         element.classList.add("animate-zoomin"); // アニメーションをトリガー
-      }, index * 300); // インデックスに応じた適切な待機時間を設定
+      }, index * 150); // インデックスに応じた適切な待機時間を設定
     });
-  }, 1500); // 1500ミリ秒（1.5秒）後に実行
+  }, 800); // 1500ミリ秒（1.5秒）後に実行
 });
