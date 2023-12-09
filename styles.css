@@ -137,16 +137,12 @@ header {
 @media (min-width: 471px) and (max-width: 650px) {
   .catchPhrase {
     font-size: 1.8em; /* 画面幅が600px以下の場合のフォントサイズ */
-    background-color: blue;
-
   }
 }
 
 @media (min-width: 651px) and (max-width: 800px) {
   .catchPhrase {
     font-size: 2.5em; /* 画面幅が600px以下の場合のフォントサイズ */
-    background-color: red;
-
   }
 }
 
